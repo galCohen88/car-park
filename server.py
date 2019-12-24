@@ -4,9 +4,6 @@ import boto3 as boto3
 import cv2
 import re
 
-access_key = 'AKIASKQ2RR3OEGEJUSMO'
-secrete_key = '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'
-
 client = boto3.client('textract', aws_access_key_id=access_key, aws_secret_access_key=secrete_key)
 
 previous_text = ''
